@@ -17,6 +17,22 @@
 /wp-*.php
 /xmlrpc.php
 
+# Explicit Exclude 
+.env
+.env.*
+wp-config.php
+*.log
+node_modules/
+vendor/
+.DS_Store
+Thumbs.db
+*.sql
+*.sql.gz
+*.zip
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
 # Configuration
 wp-config.php
 
